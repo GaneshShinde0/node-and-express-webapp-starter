@@ -84,4 +84,10 @@
 ### Express Request LifeCycle
 
 - App Init> Execute JS code (Register all middlewares) -> Start HTTP Server and listen on port -> Request Comes -> Express will execute all defined middlewares in order of their creation and based on conditions defined in middleware-> send response/ do whatever is defined.
-"# node-and-express-webapp-starter" 
+  "# node-and-express-webapp-starter"
+
+# Handing Errors Gracefully
+
+- npm install http-errors
+- npm i express-validator
+- express-validator is a set of express.js middlewares that wraps the extensive collection of validators and sanitizers offered by validator.js.
